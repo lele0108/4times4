@@ -1,0 +1,151 @@
+/* Author: Jimmy Liu
+   Website: jimmyliu.me
+   Email: sicong.liu98@gmail.com */
+   
+body p, h1, h2, h3, h4, h5, li { 
+	font-family: 'Open Sans', sans-serif;
+}
+
+.sidebar-nav-fixed {
+     position:fixed;
+     width:25%;
+     left:0;
+     height:100%;
+     background-image:url('../img/background.png');
+     background-size: 100%;
+ }
+
+ .sidebar-nav-fixed h1{
+ 	color: white;
+ 	margin-left:10%;
+ 	margin-top:25%;
+ }
+
+ .sidebar-nav-fixed p{
+ 	color: white;
+ 	margin-left:10%;
+ 	margin-right:20%
+ }
+
+ .sidebar-nav-fixed li{
+ 	color: white;
+ 	margin-left:10%;
+ 	list-style-type: none;
+ 	font-style:italic;
+ 	margin-top:10px;
+ 	text-decoration:underline;
+ }
+ 
+ .sidebar-nav-fixed a{
+ 	color: white;
+ 	margin-right:20%;
+}
+
+ 
+
+ @media (max-width: 767px) {
+     .sidebar-nav-fixed {
+         width:auto;
+     }
+ }
+
+ @media (max-width: 979px) {
+     .sidebar-nav-fixed {
+        position:static;
+        width: auto;
+     }
+ }
+
+.blog {
+	margin-top:7%;
+	position:relative;
+}
+
+
+
+
+.blog h1 {
+
+	margin:0em;
+	font-weight:900;
+	font-size: 30px;
+}
+
+.blog h1 a {
+	color:black;
+}
+
+.blog h3 {
+	margin:0em;
+	color:#8b8989;
+	font-size: 600;
+	font-size:20px;
+}
+
+.post {
+	margin-top:7%;
+	position:relative;
+	
+}
+
+.post p {
+	margin-top:5%;
+}
+
+
+.post h1 {
+
+	margin:0em;
+	font-weight:900;
+	font-size: 30px;
+}
+
+.post h3 {
+	margin:0em;
+	color:#8b8989;
+	font-size: 600;
+	font-size:15px;
+}
+
+.post h3 b {
+	color:black;
+}
+
+#headerimg {
+	height:370px;
+	margin-top:-4%;
+	margin-left: -5%;
+}
+
+#headerimg img {
+	width:100%;
+	height:350px;
+	
+}
+
+.footer {
+	margin-top:7%;
+	position:relative;
+}
+
+.footer p {
+	color:#b7b5b5;
+	font-size:12px;
+	
+}
+
+#pimg {
+	position: relative;
+	margin-top:-10%;
+	float:right;
+	width: 75px;
+	height: 75px;
+}
+
+#pimg img {
+	width: 75px;
+	height: 75px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}

@@ -1,0 +1,5 @@
+Theme name:    4times4
+Description:   A theme inspired by subtle and Medium.
+Author name:   Jimmy Liu
+Author site:   http://jimmyliu.me
+License:       http://licence.visualidiot.com
