@@ -5,3 +5,5 @@
 out. 
 
 Currenlty, this theme is not optimized for mobile devices. Sadface. 
+
+More information can be found here: http://vortexunit.com/jimmy/blog/
