@@ -3,7 +3,7 @@
           
           <div class="span9 offset3">
           	<div id="headerimg">
-             <img src="<?php echo article_custom_field('headerimage', ''); ?>">
+             <img src="<?php echo article_custom_field('headerimage', 'http://f.cl.ly/items/3z2R2p3Q21293S3R2a00/urban-landscape-wallpaper-19.jpg'); ?>">
           	</div>
           </div>
           

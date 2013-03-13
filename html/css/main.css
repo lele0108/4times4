@@ -41,18 +41,12 @@ body p, h1, h2, h3, h4, h5, li {
  	margin-right:20%;
 }
 
- 
-
- @media (max-width: 767px) {
-     .sidebar-nav-fixed {
-         width:auto;
-     }
- }
-
- @media (max-width: 979px) {
+@media (max-width: 767px) {
      .sidebar-nav-fixed {
         position:static;
-        width: auto;
+        margin-top:-5px;
+        height:250px;
+        width:auto;
      }
  }
 
@@ -67,7 +61,7 @@ body p, h1, h2, h3, h4, h5, li {
 .blog h1 {
 
 	margin:0em;
-	font-weight:900;
+	font-weight:700;
 	font-size: 30px;
 }
 
@@ -78,8 +72,8 @@ body p, h1, h2, h3, h4, h5, li {
 .blog h3 {
 	margin:0em;
 	color:#8b8989;
-	font-size: 600;
-	font-size:20px;
+	font-size: 400;
+	font-size: 20px;
 }
 
 .post {
@@ -136,7 +130,7 @@ body p, h1, h2, h3, h4, h5, li {
 
 #pimg {
 	position: relative;
-	margin-top:-10%;
+	margin-top:-80px;
 	float:right;
 	width: 75px;
 	height: 75px;
