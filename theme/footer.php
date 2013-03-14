@@ -1,5 +1,5 @@
 <div class="footer">
-   <div class="span7 offset4">
+   <div class="span6 offset4">
         <hr>
         <p>Created by Jimmy Liu. Inspired by Medium and svbtle. Powered by AnchorCMS and Bootstrap.</p>
         </div>

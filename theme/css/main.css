@@ -1,6 +1,9 @@
 /* Author: Jimmy Liu
    Website: jimmyliu.me
    Email: sicong.liu98@gmail.com */
+body {
+	margin-top:0px;
+}
    
 body p, h1, h2, h3, h4, h5, li { 
 	font-family: 'Open Sans', sans-serif;
@@ -14,6 +17,7 @@ body p, h1, h2, h3, h4, h5, li {
      background-image:url('../img/background.png');
      background-size: 100%;
      text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.63);
+     
  }
 
  .sidebar-nav-fixed h1{
@@ -26,6 +30,7 @@ body p, h1, h2, h3, h4, h5, li {
  	color: white;
  	margin-left:10%;
  	margin-right:20%;
+
  }
 
  .sidebar-nav-fixed li{
@@ -45,9 +50,27 @@ body p, h1, h2, h3, h4, h5, li {
  
 
  @media (max-width: 767px) {
+
+ 	 body {
+ 	 }
+
      .sidebar-nav-fixed {
+      margin-right:-20px;
+      margin-left:-20px;     	
          width:auto;
+
      }
+
+     .sidebar-nav-fixed h1, p, li, a{
+     	margin-top:0px;
+
+     }
+
+     #headerimg {
+		height:400px;
+		width:100%;
+		margin-top:30%;
+	 }
  }
 
  @media (max-width: 979px) {
@@ -62,9 +85,6 @@ body p, h1, h2, h3, h4, h5, li {
 	position:relative;
 }
 
-
-
-
 .blog h1 {
 
 	margin:0em;
@@ -74,6 +94,11 @@ body p, h1, h2, h3, h4, h5, li {
 
 .blog h1 a {
 	color:black;
+	text-decoration:none;
+}
+
+.blog h1 a:hover{
+	text-decoration:underline;
 }
 
 .blog h3 {
@@ -163,7 +188,7 @@ body p, h1, h2, h3, h4, h5, li {
 #headerimg {
 	height:370px;
 	margin-top:-4%;
-	margin-left: -5%;
+	margin-left: -7%;
 }
 
 #headerimg img {

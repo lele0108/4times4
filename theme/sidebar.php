@@ -9,5 +9,6 @@
               <li><a href="mailto:jliu@jimmyliu.me">say hello</a></li>
               <li><a href="http://twitter.com/jimmyliu">follow on twitter</a></li>
               <li><a href="<?php echo rss_url(); ?>">feed</a></li>
+              <br>
             </div><!--/.well -->
           </div><!--/span-->
