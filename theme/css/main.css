@@ -68,7 +68,7 @@ body p, h1, h2, h3, h4, h5, li {
 .blog h1 {
 
 	margin:0em;
-	font-weight:600;
+	font-weight:700;
 	font-size: 30px;
 }
 
@@ -97,14 +97,14 @@ body p, h1, h2, h3, h4, h5, li {
 .post h1 {
 
 	margin:0em;
-	font-weight:900;
+	font-weight:700;
 	font-size: 30px;
 }
 
 .post h3 {
 	margin:0em;
 	color:#8b8989;
-	font-size: 600;
+	font-size: 400;
 	font-size:15px;
 }
 
@@ -137,7 +137,7 @@ body p, h1, h2, h3, h4, h5, li {
 
 #pimg {
 	position: relative;
-	margin-top:-10%;
+	margin-top:-80px;
 	float:right;
 	width: 75px;
 	height: 75px;
@@ -149,4 +149,55 @@ body p, h1, h2, h3, h4, h5, li {
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
+}
+
+.article h1 {
+	font-weight:800;
+	font-size:30px;
+}
+
+.article h2 {
+	font-weight:700;
+	font-size:25px;
+}
+
+.article h3 {
+	font-weight:600;
+	font-size:20px;
+}
+
+.article h4 {
+	font-weight:400;
+	font-size:18px;
+
+}
+
+.article h5 {
+	font-weight:300;
+	font-size:16px;
+
+}
+
+.article p {
+	font-size:16px;
+	line-height:25px;
+	color:#4c4c4c;
+	margin-bottom:15px;
+}
+
+.article a {
+	color:#000000;
+	text-decoration:underline;
+}
+
+.code {
+	background-color:#eee;
+	border-style:solid;
+	border-width:1px;
+	border-color:#c3c3c3 #eee #c3c3c3 #eee;
+	padding:10px 10px 0px 20px;
+}
+
+.code p {
+
 }

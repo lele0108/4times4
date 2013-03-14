@@ -12,7 +12,9 @@
           	 <h3 style="text-transform: uppercase"><?php echo article_date(); ?> WRITTEN BY <b><?php echo article_author('real_name'); ?></b> IN <b><?php echo category_title(); ?></b></h3>
              <h1><?php echo article_title(); ?></h1>
              <hr>
+             <div class="article">
              <article><?php echo article_html(); ?></article>
+           </div>
 
              <br><br>
           </div><!--/span-->

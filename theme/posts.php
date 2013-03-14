@@ -13,7 +13,10 @@
              
              </div>
              <br>
+             <div class="article">
              <?php echo article_html(); ?>
+           </div>
+           <br><br>
              <hr>
              <br><br>
           </div><!--/span-->
