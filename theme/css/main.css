@@ -65,12 +65,6 @@ body p, h1, h2, h3, h4, h5, li {
      	margin-top:0px;
 
      }
-
-     #headerimg {
-		height:400px;
-		width:100%;
-		margin-top:30%;
-	 }
  }
 
  @media (max-width: 979px) {

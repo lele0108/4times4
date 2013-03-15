@@ -2,6 +2,9 @@
         <div class="row-fluid">
           <div class="span3">
             <div class="sidebar-nav sidebar-nav-fixed">
+              <div class="hidden-desktop">
+                <br>
+              </div>
               <h1><a href="<?php echo base_url(); ?>">4times4</a></h1>
               <p>The personal blog of Jimmy Liu. Ideas about life, design, and hacking.</p>
               <br>
