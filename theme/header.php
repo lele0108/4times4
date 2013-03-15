@@ -24,10 +24,10 @@
 	<script src="<?php echo asset_url('/js/zepto.js'); ?>"></script>
 	<script src="<?php echo theme_url('/js/main.js'); ?>"></script>
  	<script src="<?php echo theme_url('/js/prettify.js'); ?>"></script>
+ 	<script>prettyPrint();</script>
  	<?php if(article_js()): ?>
     <script><?php echo article_js(); ?></script>
 	<?php endif; ?>
- 	<script>prettyPrint();</script>
 
 	<meta name="viewport" content="width=device-width">
 	<meta name="generator" content="Anchor CMS">

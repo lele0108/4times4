@@ -5,9 +5,11 @@
           
           <?php while(posts()): ?>
           <div class="blog">
+
           <div class="span6 offset4">
              <h1><a href="<?php echo article_url(); ?>" title="<?php echo article_title(); ?>"><?php echo article_title(); ?></a></h1>
              <h3><?php echo article_date(); ?></h3>
+            
              <div id="pimg">
              <img src="<?php echo article_custom_field('pimage', 'https://d233eq3e3p3cv0.cloudfront.net/fit/c/90/90/0*2Hx_i0hRfjV9otLG.jpeg'); ?>">
              

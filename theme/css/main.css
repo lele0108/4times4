@@ -65,6 +65,14 @@ body p, h1, h2, h3, h4, h5, li {
      	margin-top:0px;
 
      }
+
+     .blog h1 {
+     	margin-right:75px !important;
+     }
+
+     .post h3{
+     line-height:20px !important;
+     }
  }
 
  @media (max-width: 979px) {
