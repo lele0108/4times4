@@ -1,6 +1,7 @@
 /* Author: Jimmy Liu
    Website: jimmyliu.me
    Email: sicong.liu98@gmail.com */
+   
 body {
 	margin-top:0px;
 }
@@ -100,7 +101,7 @@ body p, h1, h2, h3, h4, h5, li {
 }
 
 .blog h1 a:hover{
-	text-decoration:underline;
+	text-decoration:none;
 }
 
 .blog h3 {
@@ -188,16 +189,15 @@ body p, h1, h2, h3, h4, h5, li {
 }
 
 #headerimg {
-	height:370px;
+	height:450px;
 	margin-right: -20px;
 	margin-left: -20px;
 	margin-top: -30px;
 }
 
 #headerimg img {
-	width:100%;
-	height:350px;
-	
+	width:101%;
+	height:430px;
 }
 
 .footer {
